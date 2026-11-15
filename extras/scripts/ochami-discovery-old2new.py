@@ -19,6 +19,7 @@ format, JSON or YAML, as input by default) to STDOUT.
 External deps: optional PyYAML for YAML support. If PyYAML is not installed,
 the tool will still work for JSON input.
 """
+import internal.session
 import sys
 import json
 import re
